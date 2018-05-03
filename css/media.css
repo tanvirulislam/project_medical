@@ -9,9 +9,14 @@
         margin: 40px 0;
         
     }
+
+    .table td{
+        padding: 0;
+    }
     
-    .form-check{
-        margin-left: -44px;
+
+    h5{
+        font-size: 14px;
     }
 }
 
