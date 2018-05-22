@@ -18,11 +18,14 @@ if(isset($_POST['symptom'])){
   	
   	$doctor_info=mysqli_query($con,"SELECT doctor_info.image,doctor_info.name,doctor_info.hospital_name,specialist_type.specialist_type_name FROM doctor_info INNER JOIN specialist_type on doctor_info.doctor_id=specialist_type.doctor_id WHERE doctor_info.doctor_id=".$value);
   	  if ($i==1) {
-        	echo '<div class="row" style="margin-top: 2%;">';
+        	echo '<div class="row" style="margin-top: 40px;">';
         }
-        echo '<div class="col-md-3 offset-md-1 border border-success">';
+        
+        echo '<div style="margin-bottom:20px;"  class="col-md-3 offset-md-1 border border-color">';
         echo '<div class="text-center">';
-        echo '<img src="image/doctor.jpg" class="rounded-circle" alt="..." width="100" height="100">';
+        echo '<br>';
+        echo '<img style="margin-bottom:20px;" src="image/doctor.jpg" class="rounded-circle img-fluid doctor_img" alt="doctors picture" ';
+        echo '<br>';
         $j=1;
         while ($row=mysqli_fetch_array($doctor_info,MYSQLI_ASSOC)) {    
           if($j==1){
@@ -31,9 +34,12 @@ if(isset($_POST['symptom'])){
           echo '<p style="line-height: 50%;">'.$row['specialist_type_name'].', </p>'; 
           	$hospital_name= $row['hospital_name'];   
            $j++;
+            
     }
     echo '<h6>'.$hospital_name.'</h6>';
+       echo '<p><a href="#"> read more <i class="fas fa-angle-double-right"></i> </a></p>';
      echo '</div> </div>';
+     
     if ($i==3) {
     	echo '</div>';
     	$i=0;
@@ -42,7 +48,6 @@ if(isset($_POST['symptom'])){
  }
 }
 else
-    $message = "Please select any symptoms";
-echo "<script type='text/javascript'>alert('$message');</script>";
+ echo'';
  ?>
  </div>

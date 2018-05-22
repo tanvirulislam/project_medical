@@ -13,7 +13,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel"> Register From</h5>
+                    <h5 class="modal-title" id="exampleModalLabel"> Registration Form</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
@@ -41,24 +41,24 @@
     </div>
     <!-- Modal End -->
    
-    <div class="container-fluid" style="background-color: cadetblue">
+    <div class="container-fluid" style="background-color: cadetblue;">
             <div class="row ">
                 <div class="col-lg-3 col-md-2 col-sm-12 text-center">
-                    <img src="image/khab.png" class="img-fluid logo" alt="logo">
+                    <img style="cursor:pointer;" src="image/khab.png" class="img-fluid logo" alt="logo">
                 </div>
                 <div class="col-lg-7 col-md-7 col-sm-12 text-center">
-                    <h1 class="wow slideInRight title">An Smart E-Health System</h1>
+                    <h1 class="wow slideInRight title">An Smart <b>E-Health</b> System</h1>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-12 ">
-                    <button type="button" class="btn btn-primary py-1 btn_margin float-right" data-toggle="modal" data-target="#exampleModal">Register From</button>
+                    <button type="button" class="btn btn-primary py-1 btn_margin float-right" data-toggle="modal" data-target="#exampleModal">Registration Form</button>
                 </div>
             </div>
         </div>
    
     <div class="container">
         <div class="row">
-            <div class="col-md-10 offset-md-2 col-sm-12">
-                <h1 class="bounce wow bounce title2"> Select Your Symtoms :</h1>
+            <div class="col-md-10 offset-md-2 col-sm-12 text-center">
+                <h1 class="bounce wow bounce title2"> Select Your Symptoms </h1>
             </div>
         </div>
     </div>
@@ -67,7 +67,7 @@
             <form action="" method="post" id="symptom_form">
             <div class="row">
                 <!-- left side colom -->
-                <div class="col-md-2 col-sm-12">
+                <div class="col-md-2 col-sm-12 left_content">
                     <ul class="nav flex-column">
                         <li class="nav-item"> <a class="nav-link active" href="#">All problem</a>
                         </li>
@@ -86,7 +86,7 @@
                 <?php 
                  $i=1;
                  include('config/connection.php');
-                 $select_symptom="select * from symptom";
+                 $select_symptom="select * from symptom order by symptom_name";
                  $result=mysqli_query($con,$select_symptom);
                  while ($row=mysqli_fetch_array($result,MYSQLI_ASSOC)) {
                     if($i==1 || $i % 2 !=0){

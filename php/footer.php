@@ -1,38 +1,91 @@
 <!--footer start -->
 <div class="container top_doctors">
-       <br>
-       <br>
+    <br>
+    <br>
     <div class="row">
         <div class="col-md-12" style="margin-bottom:1%;margin-top:2%; background-color: #007BFF;"></div>
     </div>
     <br>
     <br>
     <div class="row">
-        <div class="col-md text-center">
-            <h4>Top 10 Doctor List :</h4>
-            <hr>
-            <p>Dr.Adnan Sami,Dha</p>
-            <p>Dr.Sobongkor,Borish</p>
-            <p>Dr.Nilofa Begom,Dha</p>
-            <p>Dr.Kamal Pasa,Dha</p>
-            <p>Dr.Sobongkor,Borish</p>
+        <div class="owl-carousel">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md text-center">
+                        <h4>Top 10 Doctor List :</h4>
+<!--                        <hr>--> <br>
+                        <p>Dr.Sultana Parvin</p>
+                        <p>Dr.Sobongkor</p>
+                        <p>Dr.Nilofa Begom</p>
+                        <p>Dr.Ajith Roy</p>
+                        <p>Dr.Sahana Khatun</p>
 
-        </div>
-        &nbsp;
-        <div class="col-md text-center">
+                    </div>
+                    &nbsp;
+                    <div class="col-md text-center">
 
-            <h4>Top 10 Doctor List :</h4>
-            <hr>
-            <p>Dr.Adnan Sami,Dha</p>
-            <p>Dr.Sobongkor,Borish</p>
-            <p>Dr.Nilofa Begom,Dha</p>
-            <p>Dr.Kamal Pasa,Dha</p>
-            <p>Dr.Sobongkor,Borish</p>
+                        <h4>Top 10 Doctor List :</h4>
+<!--                        <hr>--> <br>
+                        <p>Dr.Sultana Parvin</p>
+                        <p>Dr.Sobongkor</p>
+                        <p>Dr.Nilofa Begom</p>
+                        <p>Dr.Ajith Roy</p>
+                        <p>Dr.Sahana Khatun</p>
 
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md text-center">
+                        <h4>Top 10 Doctor List :</h4>
+<!--                        <hr>--> <br>
+                        <p>Dr.Sultana Parvin</p>
+                        <p>Dr.Sobongkor</p>
+                        <p>Dr.Nilofa Begom</p>
+                        <p>Dr.Ajith Roy</p>
+                        <p>Dr.Sahana Khatun</p>
+
+                    </div>
+                    &nbsp;
+                    <div class="col-md text-center">
+
+                        <h4>Top 10 Doctor List :</h4>
+<!--                        <hr>--> <br>
+                        <p>Dr.Sultana Parvin</p>
+                        <p>Dr.Sobongkor</p>
+                        <p>Dr.Nilofa Begom</p>
+                        <p>Dr.Ajith Roy</p>
+                        <p>Dr.Sahana Khatun</p>
+
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-12" style="margin-bottom: 2%;"></div>
-    </div>
+    <br>
+    <br>
 </div>
 <!--footer end -->
+
+<section id="contact_us">
+    <div class="container">
+        <div class="contact ">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <p> <i class="fas fa-copyright"></i>2018 E-Health by FreebiesXpress, Made in Bangladesh.</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <div class="footer_icon">
+                        <a href="#"><i class="fab fa-facebook-square"></i></a> &nbsp; &nbsp;
+                        <a href="#"><i class="fab fa-twitter"></i></a> &nbsp; &nbsp;
+                        <a href="#"><i class="fab fa-google-plus-g"></i></a> &nbsp; &nbsp;
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

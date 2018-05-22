@@ -6,7 +6,6 @@ body{
 /*header start---------------*/
 .title{
     margin: 52px 0px;
-/*    font-weight: 700;*/
     
 }
 
@@ -28,6 +27,8 @@ body{
 
 .top_doctors{
     line-height: 1;
+    cursor: pointer;
+    
 }
 
 .top_doctors h4{
@@ -35,8 +36,30 @@ body{
     
 }
 
+.border-color{
+/*    border: 1px solid #007BFF !important;*/
+    box-shadow: 0 1px 8px 1px grey;
+    width: 90%;
+    margin: 0 auto;
+}
+
 /*---------------------*/
 
+/*left_content--------*/
+.left_content a{
+    transition: .1s;
+}
+
+.left_content a:hover{
+    transform: scale(1.1);
+    color: cadetblue;
+    margin-left: 20px;
+    font-weight: 500;
+    
+}
+
+
+/*-----------------*/
 
 
 .firstrow {
@@ -44,10 +67,12 @@ body{
     background-color: #4a3030;
 }
 
-img {
+.doctor_img {
     height: 206px;
     width: 206px;
     border-radius: 50%;
+    cursor: pointer;
+    
 }
 
 .taitelDe {
@@ -63,9 +88,9 @@ img {
 .submit-row {
     color: red;
     background-color: #a6a8c3;
-
     border-color: #28a745;
     padding: 20px;
+    transition: .5s;
 }
 
 .symtoms {
@@ -94,8 +119,11 @@ img {
     cursor: pointer;
 }
 
-.form-check-input {
+.form-check:hover{
+    color: white !important;
+}
 
+.form-check-input {
     height: 20px;
     width: 20px;
     background-color: #ccc;
@@ -106,8 +134,7 @@ img {
 .form-check {
     padding-top: 10px;
     cursor: pointer;
-/*    margin-left: -44px !important;*/
-    
+    transition: .2s;
 }
 
 p:hover,
@@ -223,7 +250,6 @@ a:hover {
     height: 200px;
     width: 200px;
     margin-left: -14px;
-    
     background-color: #e0e0e5;
 }
 
@@ -237,4 +263,27 @@ text-align: center;
 }
 .doc_right_info{
     padding-top: 15px;
+    
+    
 }
+
+
+/*contact us-----------------*/
+#contact_us{
+    background-color: #ECECEC;
+    padding: 20px 0;
+    border-top: 1px solid #007BFF;
+}
+
+
+.footer_icon i{
+    font-size: 28px;
+    padding: 9px 11px;
+    border-radius: 8px;
+    color: #007BFF;
+    background-color: white;
+    cursor: pointer;
+    
+}
+
+/**/
